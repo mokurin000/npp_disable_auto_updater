@@ -7,7 +7,9 @@ edition = "2021"
 
 [dependencies]
 quick-xml = "0.31.0"
-sevenz-rust = "0.6.0"
+
+[build-dependencies]
+winres = "0.1.12"
 
 [profile.release]
 lto = true
